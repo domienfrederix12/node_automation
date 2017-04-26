@@ -1,0 +1,37 @@
+{
+  "name": "webdriver_poc",
+  "version": "1.0.0",
+  "description": "a poc for webdriverio with gulp see http://blog.scottlogic.com/2016/04/25/UsingWebdriverIO-Part1.html",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "archiver": "^1.3.0",
+    "babel-runtime": "^6.23.0",
+    "css-value": "0.0.1",
+    "deepmerge": "^1.3.2",
+    "gaze": "^1.1.2",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-webdriver": "^2.0.3",
+    "json-stringify-safe": "^5.0.1",
+    "mkdirp": "^0.5.1",
+    "q": "^1.5.0",
+    "request": "^2.81.0",
+    "rgb2hex": "^0.1.0",
+    "safe-buffer": "^5.0.1",
+    "selenium-standalone": "^6.4.1",
+    "validator": "^7.0.0",
+    "wdio-dot-reporter": "0.0.8",
+    "wdio-jasmine-framework": "^0.3.1",
+    "webdriverio": "^4.7.1",
+    "wgxpath": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}

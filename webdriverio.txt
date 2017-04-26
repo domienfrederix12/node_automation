@@ -1,0 +1,32 @@
+
+for selenium standalone run:
+
+https://serverfault.com/questions/124022/selenium-server-wont-start
+
+check if running: http://localhost:4444/selenium-server/driver/?cmd=shutDownSeleniumServer
+
+commands:
+npm install selenium-standalone@latest -g
+selenium-standalone install
+selenium-standalone start
+
+how to install:
+https://www.npmjs.com/package/selenium-standalone
+
+see first three commmands
+
+http://blog.scottlogic.com/2016/04/25/UsingWebdriverIO-Part1.html
+
+
+
+for webdriverio setup:
+
+you need to have a selenium instance running
+
+http://blog.scottlogic.com/2016/04/25/UsingWebdriverIO-Part1.html
+
+command: wdio wdio.conf.js
+
+or with gulp 
+
+gulp runTest
