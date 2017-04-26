@@ -30,7 +30,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "test"
+    "test": "gulp runTest"
   },
   "author": "",
   "license": "ISC"
